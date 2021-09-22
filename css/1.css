@@ -1,0 +1,243 @@
+*{
+
+    font-family: "Open Sans",sans-serif;
+}
+body{
+margin: 0;
+   background-color: black;
+    width: 100%;
+}
+section{
+display: flex;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100vh;
+scroll-snap-align: center;
+}
+#Home{
+
+    color: white;
+}
+#Home span{
+
+font-size: 25px;
+
+}
+#Home img{
+
+    border-radius: 50%;
+  height: 220px;
+}
+#autor{
+margin-top: 50px;
+font-size: 75px;
+margin-bottom: 30px;
+
+}
+#description{
+
+    font-size: 35px;
+    margin-top: 0%;
+    }
+
+
+#About{
+
+    background: white;
+
+
+}
+#About p, #About h1{
+    color: black;
+    
+}
+#About h1{
+
+    font-size: 50px;
+
+}
+#About p{
+
+    font-size: 20px;
+    width: 75%;
+}
+.mySkills{
+    display: flex;
+    background: white;
+    width: 80%;
+    height: 750px;
+    }
+.ResumenSkills{
+    margin: 20px;
+    margin-top: 150px;
+    color: black;
+    width: 50%;
+
+}
+
+.ResumenSkills p{
+
+    width: 650px;
+    margin-left: 50px;
+
+}
+
+/**GridContainer
+#SkillsExperience div div
+*/
+
+/**GridItems
+Idea de poner como dos botones BackEnd y FrontEnd qe al clickar 
+o lo que sea salga una caja con las diferentes habilidades que tengo rollo como la de 
+https://jacekjeznach.com/skills/#SkillsExperience div div div
+*/
+.grid-container{
+
+    display: grid;
+    margin: 20px;
+    margin-top: 100px;
+    
+}
+.grid-item{
+    
+        color: black;
+    
+}
+#SkillsExperience{
+height: 1000px;
+background: black;
+color: white;
+}
+
+#SkillsExperience h1{
+width: 100%;
+margin-top: 0;
+margin-bottom: 50px;
+text-align: center;
+font-size: 50px;
+
+}
+
+
+#Portfolio{
+background: white;
+color: black;
+
+}
+#Portfolio h1{
+
+    margin-bottom: 200px;
+}
+.gridProjectos{
+
+display: grid;
+grid-template-columns: auto auto auto;
+border-color: black;
+
+}
+
+.projecto1{
+
+text-align: center;
+border-color: black;
+margin-right: 150px;
+border-style: solid;
+height: 200px;
+width: 100px;
+}
+.projecto2{
+
+border-color: black;
+text-align: center;
+margin-right: 150px;
+margin-left: 150px;
+border-style: solid;
+height: 200px;
+width: 100px;
+}
+.projecto3{
+
+border-color: black;
+text-align: center;
+margin-left: 150px;
+border-style: solid;
+height: 200px;
+width: 100px;
+}
+.projectImage{
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    display: block;
+
+}
+.projectImage:hover {
+
+    display: none;
+
+}
+.projectDescription{
+display: none;
+position: absolute;
+top: 0%;
+margin: 0%;
+padding: 0%;
+border: 0%;
+    
+}
+.projectDescription:hover{
+    display: block;
+    
+        
+}
+#Contact{
+
+    height: 200px;
+
+}
+.gridFooter{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 20px;
+
+}
+.gridFooter a{
+color: white;
+
+}
+
+footer{
+
+    color: white;
+    height: 250px;
+}
+
+/*
+nav
+*/
+nav{
+
+    margin-right: 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li{
+    float: right;
+display: inline;
+margin: 10px;
+
+}
+nav li a{
+
+    color: white;
+}
