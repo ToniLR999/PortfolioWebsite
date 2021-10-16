@@ -18,13 +18,12 @@
     <meta name="keywords" content="PortfolioWebsite">
     <meta name="author" content="ToniLR">
     <link rel="stylesheet" type="text/css" href="css/1.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  
+    <link rel="stylesheet" type="text/css" href="css/scrollarrow.css">
+    <link rel="stylesheet" type="text/css" href="css/skillbar.css">
+    <script type="text/javascript" src="js/skillbar.js"></script>
 </head>
-<body id="main">
+<body>
 <header>
-</header>
-<div class="container">
     <nav>
         <ul id="Home">
             <span>ToniLR</span>
@@ -33,22 +32,26 @@
             <li class="menu__group"><a href="#About">My Skills</a></li>
         </ul>
     </nav>
-    <section id="Home">
-        <!-- inserte imagen mia circular aqui-->
-        <img src="img/foto.jpg" alt="perfil">
-        <div id="title">
-            <p id="autor">Toni Lupiañez Roman</p>
-            <p id="description">Junior Developer</p>
-        </div>
-        <!--<h1 id="autor">Toni Lupiañez Roman</h1>
-        <h2 id="description">Junior Developer</h2>-->
-        <!--inserte enlaces redes sociales-->
-    </section>
-    <section id="About">
-        <!-- Descripcion personal -->
-        <h1>Presentation</h1>
-        <p>Junior Programmer recently graduated in Multiplatform Application Development with 6 months of work experience in a consultancy in Terrassa where he has developed various applications for different clients to improve and facilitate their work, as well as for the E-commerce sector for various stores. Currently I would like to continue learning, gain experience and have the opportunity to help the company.</p>        
-    </section>
+</header>
+<div class="container">
+        <section id="Home">
+            <!-- inserte imagen mia circular aqui-->
+            <div id="title">
+                <p id="autor">Toni Lupiañez Roman</p>
+                <p id="description">Junior Developer</p>
+            </div>
+            <div class="mouse"></div>
+            <p class="scrollText">Scroll</p>
+            <!--<h1 id="autor">Toni Lupiañez Roman</h1>
+            <h2 id="description">Junior Developer</h2>-->
+            <!--inserte enlaces redes sociales-->
+        </section>
+        <section id="About">
+            <!-- Descripcion personal -->
+            <img src="img/foto.jpg" alt="perfil">
+            <h1>Presentation</h1>
+            <p>Junior Programmer recently graduated in Multiplatform Application Development with 6 months of work experience in a consultancy in Terrassa where he has developed various applications for different clients to improve and facilitate their work, as well as for the E-commerce sector for various stores. Currently I would like to continue learning, gain experience and have the opportunity to help the company.</p>        
+        </section>
     <section id="SkillsExperience">
         <!-- experiencia laboral y Skills -->
         
@@ -59,15 +62,12 @@
                     beatae unde dolor quo omnis ad nemo quia consectetur, illum officia? Beatae, et.</p>
                 </div>
             <div class="grid-container">
-                <div class="grid-item">Java 
-                    <canvas id="MyChart"></canvas>
-                </div>
-                <div class="grid-item">Python</div>
-                <div class="grid-item">PHP</div>
-                <div class="grid-item">HTML</div>
-                <div class="grid-item">CSS</div>
-                <div class="grid-item">Javascript</div>
-                <div class="grid-item"></div>
+                <div class="grid-item"><span>Java</span><progress value="80" max="100"></progress></div>
+                <div class="grid-item"><span>Python</span><progress value="70" max="100"></progress></div>
+                <div class="grid-item"><span>PHP</span><progress value="60" max="100"></progress></div>
+                <div class="grid-item"><span>HTML/CSS</span><progress value="60" max="100"></progress></div>
+                <div class="grid-item"><span>JavaScript</span><progress value="80" max="100"></progress></div>
+                <div class="grid-item"><span>MySQL</span><progress value="60" max="100"></progress></div>
                 <div class="grid-item"></div>
             </div>
         </div>
@@ -135,62 +135,5 @@
 </div>
 </body>
 
-<script>
-
-var ctx = document.getElementById('MyChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});
-</script>
 
 </html>
-
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-<script>
-VANTA.NET({
-  el: "#main",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x77ff,
-  backgroundColor: 0x0,
-  maxDistance: 25.00,
-  spacing: 20.00
-})
-</script>-->

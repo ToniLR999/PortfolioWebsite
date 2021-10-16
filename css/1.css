@@ -2,6 +2,7 @@
 
     font-family: "Open Sans",sans-serif;
 }
+
 body{
 margin: 0;
    background-color: black;
@@ -27,7 +28,7 @@ scroll-snap-align: center;
 font-size: 25px;
 
 }
-#Home img{
+#About img{
 
     border-radius: 50%;
   height: 220px;
@@ -98,9 +99,10 @@ https://jacekjeznach.com/skills/#SkillsExperience div div div
 .grid-container{
 
     display: grid;
-    margin: 20px;
+    margin: 100px;
     margin-top: 100px;
-    
+    width: 100%;
+    text-align: start;
 }
 .grid-item{
     
