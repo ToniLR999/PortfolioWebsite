@@ -28,6 +28,11 @@ scroll-snap-align: center;
 font-size: 25px;
 
 }
+#title{
+
+    margin-bottom: 175px;
+    margin-top: 175px;
+}
 #About img{
 
     border-radius: 50%;
