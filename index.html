@@ -2,14 +2,14 @@
 <html lang="en">
 <!--
     MADE BY 
- /$$$$$$$$ /$$$$$$  /$$   /$$ /$$$$$$ /$$       /$$$$$$$       
-|__  $$__//$$__  $$| $$$ | $$|_  $$_/| $$      | $$__  $$      
-   | $$  | $$  \ $$| $$$$| $$  | $$  | $$      | $$  \ $$      
-   | $$  | $$  | $$| $$ $$ $$  | $$  | $$      | $$$$$$$/      
-   | $$  | $$  | $$| $$  $$$$  | $$  | $$      | $$__  $$      
-   | $$  | $$  | $$| $$\  $$$  | $$  | $$      | $$  \ $$      
-   | $$  |  $$$$$$/| $$ \  $$ /$$$$$$| $$$$$$$$| $$  | $$      
-   |__/   \______/ |__/  \__/|______/|________/|__/  |__/      
+ /$$$$$$$$                  /$$ /$$       /$$$$$$$ 
+|__  $$__/                 |__/| $$      | $$__  $$
+   | $$  /$$$$$$  /$$$$$$$  /$$| $$      | $$  \ $$
+   | $$ /$$__  $$| $$__  $$| $$| $$      | $$$$$$$/
+   | $$| $$  \ $$| $$  \ $$| $$| $$      | $$__  $$
+   | $$| $$  | $$| $$  | $$| $$| $$      | $$  \ $$
+   | $$|  $$$$$$/| $$  | $$| $$| $$$$$$$$| $$  | $$
+   |__/ \______/ |__/  |__/|__/|________/|__/  |__/   
 -->
 <head>
     <meta charset="utf-8" />
@@ -21,30 +21,41 @@
     <link rel="stylesheet" type="text/css" href="css/scrollarrow.css">
     <link rel="stylesheet" type="text/css" href="css/skillbar.css">
     <link rel="stylesheet" type="text/css" href="css/projectos.css">
+    <link rel="stylesheet" type="text/css" href="css/titleanimation.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/socialmedialinks.css">
+    <script src="https://kit.fontawesome.com/9a2cad4650.js" ></script>
     <script type="text/javascript" src="js/skillbar.js"></script>
 </head>
 <body>
-<header>
-    <nav>
-        <ul id="Home">
-            <span>ToniLR</span>
-            <li class="menu__group"><a href="#About">About Me</a></li>
-            <li class="menu__group"><a href="#Portfolio">Portfolio</a></li>
-            <li class="menu__group"><a href="#About">My Skills</a></li>
-        </ul>
-    </nav>
+<header class="header">
+        <img class="logo" src="img/logoNegro.PNG" alt="perfil">
+        <nav >
+            <ul class="navbar">
+                <li><a href="#Home">Home</a></li>
+                <li ><a href="#About">About Me</a></li>
+                <li ><a href="#Portfolio">Portfolio</a></li>
+                <li ><a href="#About">My Skills</a></li>
+            </ul>
+        </nav>
+   
 </header>
 <div class="container">
         <section id="Home">
             <!-- inserte imagen mia circular aqui-->
             <div id="title">
                 <p id="autor">Toni Lupiañez Roman</p>
-                <p id="description">Junior Developer</p>
+                <br>
+                <p id="description">Junior Developer.</p>
+                <div class="social-media-links">
+                    <a  class="bg-github" href="https://github.com/ToniLR999"><i class="fab fa-github"></i></a>
+                    <a  class="bg-linkedin" href="https://www.linkedin.com/in/toni-lupia%C3%B1ez-roman-4a8024202/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="bg-whatsapp" href="https://wa.me/34637313836"><i class="fab fa-whatsapp"></i></a>   
+                </div>
             </div>
+                              
             <div class="mouse"></div>
             <p class="scrollText">Scroll</p>
-            <!--<h1 id="autor">Toni Lupiañez Roman</h1>
-            <h2 id="description">Junior Developer</h2>-->
             <!--inserte enlaces redes sociales-->
         </section>
         <section id="About">
@@ -131,8 +142,9 @@
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
+        <p>&copy;2021 Toni Lupiañez. All rights reserved.<p></p>
     </div>
-        <p>&copy;2021 Toni Lupiañez. All rights reserved.<p>
+        
         
     </footer>
 

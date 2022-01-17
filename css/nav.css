@@ -1,0 +1,41 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+li, a{
+    text-decoration: none;  
+    font-weight: bold;
+}
+.logo{
+    cursor: pointer;
+    height: 75px;
+    
+
+}
+.navbar{
+    list-style: none;
+    
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+.navbar li a:hover{
+    text-shadow: 1px 1px 3px black;
+
+}

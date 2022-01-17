@@ -1,0 +1,29 @@
+.social-media-links{
+    margin: 20px;
+}
+.social-media-links a{
+
+    margin: 15px;
+    font-size: 40px;
+    padding: 5px;
+}
+.social-media-links a:hover{
+
+    background: white;
+    color: black;
+}
+.bg-github{
+    background: black;
+
+    color: white;
+}
+.bg-linkedin{
+    background: black;
+
+    color: white;
+}
+.bg-whatsapp{
+    background: black;
+
+    color: white;
+}
