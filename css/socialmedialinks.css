@@ -27,3 +27,15 @@
 
     color: white;
 }
+
+.ContactLinks{
+
+    margin-top: 10px;
+
+}
+.ContactLinks a{
+
+    margin-right: 10px;
+    font-size: 20px;
+
+}

@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="css/titleanimation.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/socialmedialinks.css">
+    <link rel="stylesheet" type="text/css" href="css/downloadcv.css">
     <script src="https://kit.fontawesome.com/9a2cad4650.js" ></script>
     <script type="text/javascript" src="js/skillbar.js"></script>
 </head>
@@ -31,11 +32,11 @@
 <header class="header">
         <img class="logo" src="img/logoNegro.PNG" alt="perfil">
         <nav >
-            <ul class="navbar">
+            <ul class="navBar">
                 <li><a href="#Home">Home</a></li>
                 <li ><a href="#About">About Me</a></li>
+                <li ><a href="#SkillsExperience">My Skills</a></li>
                 <li ><a href="#Portfolio">Portfolio</a></li>
-                <li ><a href="#About">My Skills</a></li>
             </ul>
         </nav>
    
@@ -60,10 +61,18 @@
         </section>
         <section id="About">
             <!-- Descripcion personal -->
-            <img src="img/foto.jpg" alt="perfil">
-            <h1>Presentation</h1>
-            <p>Junior Programmer recently graduated in Multiplatform Application Development with 6 months of work experience in a consultancy in Terrassa where he has developed various applications for different clients to improve and facilitate their work, as well as for the E-commerce sector for various stores. Currently I would like to continue learning, gain experience and have the opportunity to help the company.</p>        
-        </section>
+            <div class="cuerpo">
+                <img src="img/foto.jpg" alt="perfil">    
+                <div class="aboutText">
+                    <h1>Presentation</h1>
+                    <p>s corporis eveniet corla odreicit c seat Junior Programmer recently graduated in Multiplatform Application Development with 6 months of work experience in a consultancy in Terrassa where he has developed various applications for different clients to improve and facilitate their work, as well as for the E-commerce sector for various stores. Currently I would like to continue learning, gain experience and have the opportunity to help the company.</p>        
+                    <a href="./file/cvToniLupiañez.pdf">
+                        <button class="custom-btn btn-11">Descargar CV</button>
+                    </a>
+                </div>
+                
+            </div>
+            </section>
     <section id="SkillsExperience">
         <!-- experiencia laboral y Skills -->
         
@@ -128,12 +137,15 @@
     <div class="gridFooter">
         <div id="Contact">
             <h1>Contact</h1>
-            <p>Email: <a href="">tonilupianezroman@gmail.com</a></p>
-            <p>Telefono: <a href="">+34 637313836</a></p>
-        
-        
+            <p>Email: <a href="mailto: tonilupianezroman@gmail.com">tonilupianezroman@gmail.com</a></p>
+            <p>Telefono: <a href="tel:34637313836">+34 637313836</a></p>
+            <div class="ContactLinks">
+                <a  class="bg-github" href="https://github.com/ToniLR999"><i class="fab fa-github"></i></a>
+                <a  class="bg-linkedin" href="https://www.linkedin.com/in/toni-lupia%C3%B1ez-roman-4a8024202/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="bg-whatsapp" href="https://wa.me/34637313836"><i class="fab fa-whatsapp"></i></a>
+            </div>
         </div>
-        <div id="Site Map">
+        <div id="SiteMap">
             <h1>Site Map</h1>
             <ul>
                 <li><a href="#About">About</a></li>

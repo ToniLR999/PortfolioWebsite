@@ -33,11 +33,63 @@ scroll-snap-align: center;
     margin-bottom: 150px;
     margin-top: 175px;
 }
-#About img{
-
-    border-radius: 50%;
-    height: 220px;
+#About{
+    
+    justify-content: unset;
+    
 }
+#About h1{
+
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    
+}
+.aboutText button{
+
+    margin-top: 20px;
+
+}
+.aboutText button a{
+
+    color: black;
+    text-decoration: none;
+
+}
+.cuerpo img{
+    margin: 90px 0px 0px 0px;
+    height: 600px;
+    border-color: black;
+    border-style: solid;
+    
+}
+.cuerpo img:hover{
+    box-shadow: 5px 5px 5px black;
+
+}
+.cuerpo{
+
+    display: flex;
+    align-items: center;
+}
+.cuerpo p{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: 350px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    height: 600px;
+    text-align: justify;
+    font-weight: bold;
+    
+
+}
+.aboutText{
+
+    margin: 50px 50px 50px 150px;
+}
+
 #autor{
 margin-top: 50px;
 font-size: 75px;
@@ -52,27 +104,6 @@ margin-bottom: 10px;
     margin-left: 210px;
     }
 
-
-#About{
-
-    background: white;
-
-
-}
-#About p, #About h1{
-    color: black;
-    
-}
-#About h1{
-
-    font-size: 50px;
-
-}
-#About p{
-
-    font-size: 20px;
-    width: 75%;
-}
 .mySkills{
     display: flex;
     background: white;
@@ -208,6 +239,11 @@ border: 0%;
     height: 200px;
 
 }
+#Contact p:first-of-type{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .gridFooter{
 
 display: grid;
@@ -227,6 +263,13 @@ footer{
     color: white;
     height: 250px;
     padding-top: 5px;
+}
+
+#SiteMap ul{
+
+list-style: square;
+margin-left: 20px;
+
 }
 
 /*
